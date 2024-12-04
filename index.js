@@ -1,4 +1,4 @@
-console.log("hello from conditions");
+// console.log("hello from conditions");
 
 // if age < 18 => console.log ('under age')
 // is age = 21 or age > 21 => console.log ('can drink alcohol')
@@ -279,6 +279,7 @@ console.log("hello from conditions");
 
 // 6. Тэгш өнцөгт гурвалжны 2 суурын урт өгөгдсөн(a, b) бол тухайн гурвалжины налуугын уртыг( c ) ол
 
+
 // 7. 4 н хувьсагч зарлан тоон утга өг.Өгөгдсөн 4 тооны 80-аас их тоонуудын нийлбэрийг ол.:
 //      a=85 b=75 c=96 d=69
 //      80-аас их тоонуудын нийлбэрийг: 181
@@ -290,54 +291,100 @@ console.log("hello from conditions");
 //     }
 //     console.log(sum)
 // }
-const aa = Number(prompt("a"));
-const bb = Number(prompt("a"));
-const cc = Number(prompt("a"));
-const dd = Number(prompt("a"));
-let sum = 0;
-if (aa > 80) {
-  sum = sum + aa;
-  if (bb > 80) {
-    sum = sum + bb;
-
-    if (cc > 80) {
-      sum = sum + cc;
-      if (dd > 80) {
-        sum = sum + dd;
-        console.log(sum);
-      } else {
-        console.log(sum);
-      }
-    }
-  } else {
-    if (cc > 80) {
-      if (dd > 80) {
-        console.log(avah);
-      }
-    }
-  }
-}
+// const aa = Number(prompt("a"));
+// const bb = Number(prompt("a"));
+// const cc = Number(prompt("a"));
+// const dd = Number(prompt("a"));
+// let sum = 0;
+// if (aa > 80) {
+//   sum = sum + aa;
+//   if (bb > 80) {
+//     sum = sum + bb;
+//     if (cc > 80) {
+//       sum = sum + cc;
+//       if (dd > 80) {
+//         sum = sum + dd;
+//         console.log(sum);
+//       } else {
+//         console.log(sum);
+//       }
+//     }
+//   } else {
+//     if (cc > 80) {
+//       if (dd > 80) {
+//         console.log(avah);
+//       }
+//     }
+//   }
+// }
 
 // 8. 4 н хувьсагч зарлан тоон утга өг.Өгөгдсөн 4 тооны 5-аас бага тоонуудын үржвэрийг ол. 5-аас бага тоо ядаж 1 байгаа:
 //      a=3 b=7 c=2 d=4
 //      5-аас бага тоонуудын үржвэр: 24
 
-// 9. if … else ашиглан myAge болон yourAge-ийн утгыг харьцуул. Харьцуулалт дээр үндэслэн үр дүнг консол руу хөгшин (би эсвэл та) гэж тэмдэглэнэ үү. Насыг оруулахын тулд prompt("Насаа оруулна уу:")-г ашиглана уу.
+
+// let n1 = 3;
+// let n2 = 7;
+// let n3 = 2;
+// let n4 = 4; 
+
+// if (n1 < 5) {
+// } else if (n2 < 5) {
+// } else if (n3 < 5) {
+// } else if (n4 < 5) {
+// } console.log("numbers less than 5",n1*n3*n4);
+
+
+// 9. if … else ашиглан myAge болон yourAge-ийн утгыг харьцуул. 
+// Харьцуулалт дээр үндэслэн үр дүнг консол руу хөгшин (би эсвэл та) гэж тэмдэглэнэ үү. Насыг оруулахын тулд prompt("Насаа оруулна уу:")-г ашиглана уу.
+
+// const myAge=prompt ("Насаа оруулна уу:")
+// const yourAge=prompt ("Насаа оруулна уу:")
+// if (myAge>yourAge){
+//   console.log("би");
+// } else if (myAge<yourAge){
+//   console.log("та");
+// } else {
+//   console.log("chi");
+// }
 
 // 10. Тухайн өгөгдсөн хувьсагчдаас хамгийн бага утгатай хувьсагчийг console дээр хэвлэнэ үү
 //      жишээ нь: Input: 120, 33, 10, 12 output: 10
 
+// let baga=Math.min(120, 33, 10, 12)
+// console.log(baga);
+
+
 // 11. Өгөгдсөн эерэг тоо нь 3-ын үржвэр эсвэл 7-ын үржвэр эсэхийг шалгана уу
+
+// let too= prompt("too")
+
+  // if(too%3 == 0 || too%7 == 0){
+  //   console.log(too, "good");
+  // } else {
+  //   console.log("baddab");
+  // }
+  
 
 // 12. n тооны утгын дагуу эерэг эсвэл сөрөгийг олж хэвлэнэ.
 //      negative
 //      positive
+
+
 
 // 13. weight, height гэсэн 2 хувьсагчид утга оруулахад тухайн хэмжээнээс хамааран биеийн жингийн индексийг тооцож тухайн индекс-д харгалзах утгыг хэвлэнэ.
 //      Жингийн дутагдалтай
 //      Эрүүл
 //      Илүүдэл жинтэй
 //      Хэт таргаллалттай
+
+let weight = prompt ("enter weight")
+
+if(weight<50 || weight<59){
+  console.log("Жингийн дутагдалтай");
+} else if (weight < 60 || weight <80) {
+  console.log("Эрүүл");
+}
 
 // 14. Өгөгдсөн тооны тэгш эсвэл сондгой болохыг хэвлэж харуулна уу
 
